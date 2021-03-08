@@ -19,8 +19,8 @@ network:
   # Do not check-in docker_password.
   docker:
     url: "index.docker.io/hyperledgerlabs"
-    username: ""
-    password: ""
+    username: "camil.iovanas@codit.eu"
+    password: "wuO73ba9KG3oOpVEnm3i"
   
   # Remote connection information for orderer (will be blank or removed for orderer hosting organization)
   orderers:
