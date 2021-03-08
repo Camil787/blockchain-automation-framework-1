@@ -97,7 +97,7 @@ network:
         chart_source: "platforms/hyperledger-fabric/charts"                             # Relative Path where the Helm charts are stored in Git repo
         git_repo: "github.com/Camil787/blockchain-automation-framework-1"       # Gitops https URL for git push  (without https://)
         username: "Camil787"                                                     # Git user who has rights to check-in in all branches
-        password: "c1f0fffa084999340798f612811ffea9f9748b52"                                                        # Git Server user password or token
+        password: "a19bec5c937682023da9cf3e040647fff05a4394"                                                        # Git Server user password or token
         email: "camil.iovanas@codit.eu"                                                           # Email to use in git config
         private_key: "/root/blockchain-automation-framework/build/gitops"               # Path to private key file which has write-access to the git repo
      
@@ -152,7 +152,7 @@ network:
             maindirectory: "cmd"   # The main directory where chaincode is needed to be placed
             repository:
               username: "Camil787"          # Git user
-              password: "c1f0fffa084999340798f612811ffea9f9748b52"             # Git token or password of above user
+              password: "19bec5c937682023da9cf3e040647fff05a4394"             # Git token or password of above user
               url: "github.com/Camil787/blockchain-automation-framework-1.git"
               branch: master
               path: "examples/supplychain-app/fabric/chaincode_rest_server/chaincode/"  #The path to the chaincode in the repo
