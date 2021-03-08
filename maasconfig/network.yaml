@@ -152,7 +152,7 @@ network:
             maindirectory: "cmd"   # The main directory where chaincode is needed to be placed
             repository:
               username: "Camil787"          # Git user
-              password: "19bec5c937682023da9cf3e040647fff05a4394"             # Git token or password of above user
+              password: "a19bec5c937682023da9cf3e040647fff05a4394"             # Git token or password of above user
               url: "github.com/Camil787/blockchain-automation-framework-1.git"
               branch: master
               path: "examples/supplychain-app/fabric/chaincode_rest_server/chaincode/"  #The path to the chaincode in the repo
