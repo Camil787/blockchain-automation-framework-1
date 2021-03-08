@@ -84,7 +84,7 @@ network:
       # Hashicorp Vault server address and root-token. Vault should be unsealed.
       # Do not check-in root_token
       vault:
-        url: "http://172.16.0.5:30000/"
+        url: "http://172.16.0.6:30000/"
         root_token: "s.5qCTXsVmkaHojVCZLqBhSCqT"
         secret_path: "secret"
       # Git Repo details which will be used by GitOps/Flux.
